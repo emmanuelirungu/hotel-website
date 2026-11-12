@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+    <nav class="navbar">
+
+        <h2 class="logo">Royal Hotel</h2>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="booking.html">Booking</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="booking">
+
+    <h2>Reservation Form</h2>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number" required>
+
+        <label>Check-in Date</label>
+        <input type="date" required>
+
+        <label>Check-out Date</label>
+        <input type="date" required>
+
+        <label>Room Type</label>
+
+        <select required>
+            <option value="">Select a room</option>
+            <option>Standard Room</option>
+            <option>Deluxe Room</option>
+            <option>Executive Suite</option>
+        </select>
+
+        <label>Number of Guests</label>
+        <input type="number" min="1" max="4" required>
+
+        <label>Special Requests</label>
+        <textarea rows="5" placeholder="Any special requests?"></textarea>
+
+        <button type="submit">Submit Booking</button>
+
+    </form>
+
+</section>
+<footer>
+    <p>Royal Hotel | Nairobi, Kenya</p>
+    <p>Phone: +254 700 000 000</p>
+</footer>
+</body>
+</html>
